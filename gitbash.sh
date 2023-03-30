@@ -1,3 +1,4 @@
 #!/bin/bash
-#
-sudo yum -y install git
+
+yum -y update
+yum -y install git
