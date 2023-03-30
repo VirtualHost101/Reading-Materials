@@ -1,0 +1,3 @@
+ssh -i  - Allows to connect to servers using port 22
+pwd - present working directory
+cd - allows to move/change in or out directory
