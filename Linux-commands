@@ -1,3 +1,9 @@
-ssh -i  - Allows to connect to servers using port 22
-pwd - present working directory
-cd - allows to move/change in or out directory
+# This is give you basic idea about Linux commands.
+######
+##
+ssh -i "abc.pem" user@ip-address => Allows to connect to servers using port 22
+pwd => present working directory
+cd => allows to move/change in or out directory
+uname => type of OS
+scp -i "abc.pem" <file to transfered> <username>@ip-address:~   => allows to tranfer file local to server
+scp -i "abc.pem" -R <directory> <username>@ip-address:~   => allows to tranfer directory local to server
