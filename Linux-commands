@@ -7,3 +7,6 @@ cd => allows to move/change in or out directory
 uname => type of OS
 scp -i "abc.pem" <file to transfered> <username>@ip-address:~   => allows to tranfer file local to server
 scp -i "abc.pem" -R <directory> <username>@ip-address:~   => allows to tranfer directory local to server
+chmod => {change mode} , allows to change permission on the files
+
+
