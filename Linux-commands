@@ -3,10 +3,12 @@
 ##
 ssh -i "abc.pem" user@ip-address => Allows to connect to servers using port 22
 pwd => present working directory
-cd => allows to move/change in or out directory
+cd => allows to move/change in or out directory can add flags like  [.. , . , -]
 uname => type of OS
 scp -i "abc.pem" <file to transfered> <username>@ip-address:~   => allows to tranfer file local to server
 scp -i "abc.pem" -R <directory> <username>@ip-address:~   => allows to tranfer directory local to server
 chmod => {change mode} , allows to change permission on the files
-
-
+ls - list you all the files and can add flags like [-a, -lrt, -l etc]
+touch - create a file
+mkdir - make directory
+cp - copy
