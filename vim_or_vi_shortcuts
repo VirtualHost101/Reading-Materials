@@ -1,0 +1,45 @@
+# this will give you basic idea about using vim or vi 
+
+i = insert mode
+esc = exit
+:wq = save changes
+:q! = exit with out changes
+
+# Navigation
+
+use arrows keys for Navigation
+w = for word by word
+b = back word by word
+5w = 5 words forward
+5b = 5 words backwards
+ctrl + u = page up
+ctrl + d = page down
+shift + g = end of the page
+g+g = top of the page
+
+
+# see line numbers on the vim or vi
+
+:se nu = displays line numbers
+:31 or :42 = got to spefic line number
+
+# deleting
+
+x = delete charaters
+10x = delete charaters
+dw = delete word
+3dw = delete 3 words
+db = delete word backwards
+3db = delete 3 word backwards
+
+#Copying
+
+yl + p = copy and paste 
+yw + p = copy and paste word
+3yw + p = copy and paste line
+yy + p = copy and paste line
+3yy + p = copy and paste 3 lines
+
+# find a certain word in the file
+
+ /pattern = example "/port = 8080"
