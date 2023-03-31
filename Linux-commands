@@ -19,5 +19,6 @@ curl http://www.google.com = can also be used if the things are not working
 head "file name" = shows only 10 top lines of the page
 tail "file name " = shows only 10 bot lines of the page
 grep = help to find the specfic word
+grep | "patterns" = use pipe to find certain patterns
 systemctl status sshd.service = will help you to find satus of the partical service
 
