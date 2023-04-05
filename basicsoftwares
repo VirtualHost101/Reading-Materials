@@ -1,6 +1,13 @@
-# basic and must softwares for everyservers
+# Installation
+
+Centos/RHEL/FEDORA ==> RPM packages (app.rmp) or (app.exe)
+ubuntu/debain/jessie ==> DPKG (app.deb) or (app.dppk)
+
+Installing rpm packages need dependency
+
+# basic and must softwares for every server
 
 yum -y install vim {editor}
 yum -y install git {git-cli}
 yum -y install wget {used for downloading}
-yum -y install zip 
+yum -y install zip {used for zipping and unzipping files}
