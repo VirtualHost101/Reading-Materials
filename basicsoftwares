@@ -3,7 +3,17 @@
 Centos/RHEL/FEDORA ==> RPM packages (app.rmp) or (app.exe)
 ubuntu/debain/jessie ==> DPKG (app.deb) or (app.dppk)
 
-Installing rpm packages need dependency
+#Installing rpm packages need dependency
+#list all the RPM packages
+rpm -qa {query all}
+rpm -qa | wc -l (gives number service)
+rpm -qa | grep (package name) => query specfic package name
+rpm -qi (package name) =. gives info of specfic package :example rpm -qi wget 
+# remove the app
+sudo rpm -e (package name)
+# update rpm package
+sudo rpm -Uvh app.rpm
+
 
 # basic and must softwares for every server
 
