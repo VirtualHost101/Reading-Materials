@@ -5,6 +5,7 @@ ssh -i "abc.pem" user@ip-address => Allows to connect to servers using port 22
 pwd => present working directory
 cd => allows to move/change in or out directory can add flags like  [.. , . , -]
 uname => type of OS
+whoami => type of user
 scp -i "abc.pem" <file to transfered> <username>@ip-address:~   => allows to tranfer file local to server
 scp -i "abc.pem" -R <directory> <username>@ip-address:~   => allows to tranfer directory local to server
 chmod => {change mode} , allows to change permission on the files
@@ -22,3 +23,53 @@ grep = help to find the specfic word
 grep | "patterns" = use pipe to find certain patterns
 systemctl status sshd.service = will help you to find satus of the partical service
 
+#working with tar and zip files
+# tar
+tar => archive/extract the files
+example : tar xvf (tar file) x - extract v - verbose f - file
+to create a tar file
+tar cvf (files) c- create v - verbose f -file
+
+#zip
+zip => for archiving
+unzip => for extracting {2 different commands}
+install => sudo yum -y install zip
+
+#Managing users on Linux	
+Root user => has full permissions sudo sudo
+systemuser => users are created by during service
+example - install a apache server -- apache user is created
+	- install a database -- sql user is created
+
+Normal users => user are created by developer
+example : satya, developer or UAT
+## user file
+/etc/passwd
+example:     1    2 3  4    5        6        7
+	 operator:x:11:0:operator:/root:/sbin/nologin
+1. username
+2. password (/etc/shadow)
+3. userid
+4. groupid
+5. comment
+6. home directory
+7. shell
+# user exits or not?
+ > grep (username) /etc/passwd
+ > id (username)
+# creating a user
+ > sudo useradd (username) example useradd (test)
+ # switching to user
+ > su (test) 
+ # set password 
+ sudo passwd (username) example sudo passwd test
+ # group info is present inside 
+ > /etc/group or sudo visudo
+# modifing the user
+sudo usermod -aG <wheel> <username> example: sudo usermod -aG wheel test
+#change user name 
+sudo usermod -l <new-username> <old-username>
+example: sudo usermod -l test123 test
+# deleting user
+> userdel (username)
+example: userdel test123

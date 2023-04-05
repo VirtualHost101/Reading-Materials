@@ -3,4 +3,4 @@
 yum -y install vim {editor}
 yum -y install git {git-cli}
 yum -y install wget {used for downloading}
-
+yum -y install zip 
