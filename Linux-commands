@@ -73,3 +73,20 @@ example: sudo usermod -l test123 test
 # deleting user
 > userdel (username)
 example: userdel test123
+
+# Managing permissions on the file and directory
+read write and excute
+rw-(owner)rw-(group)r--(others)
+r - 4
+w - 2
+x - 1
+0 - no permissions
+
+example file.txt --> rw-  :: rw- :: r--
+                      6       6      4
+=> chmod 666 <file name>
+=> chmod -R 666 <for directory>
+
+# change ownership and change group
+sudo chown <username> <filename>
+sudo chgrp <username> <filename>
