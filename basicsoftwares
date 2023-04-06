@@ -13,6 +13,8 @@ rpm -qi (package name) =. gives info of specfic package :example rpm -qi wget
 sudo rpm -e (package name)
 # update rpm package
 sudo rpm -Uvh app.rpm
+# install rpm 
+sudo rpm -ivh <rpm package>
 
 
 # basic and must softwares for every server
@@ -21,3 +23,22 @@ yum -y install vim {editor}
 yum -y install git {git-cli}
 yum -y install wget {used for downloading}
 yum -y install zip {used for zipping and unzipping files}
+
+#working with yum packages
+packages are found > /etc/yum.repos.d/
+
+#starting a service
+
+> sudo systemctl staus <service>
+> sudo systemctl start <service>
+> sudo systemctl stop <service>
+> sudo systemctl restart <service>
+
+# checking the port for the service
+
+> sudo netstat -ntpl | grep <port>
+> ps -ef | grep <port>
+
+example : sudo yum -y install httpd
+	: sudo systemctl start httpd
+	: ps -ef | grep httpd

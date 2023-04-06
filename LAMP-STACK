@@ -1,0 +1,14 @@
+# LAMP stack?
+ - L - Linux
+ - A - Apache web server
+ - M - MySQL database
+ - p - PHP
+
+ We need one stack to deploy an application
+
+ # other stacks 
+ -Apache/ Nginx / Tomcat
+ -MySQL / Postgres / Oracle
+ -PHP / Java / Python
+
+ 
