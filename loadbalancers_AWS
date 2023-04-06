@@ -1,0 +1,18 @@
+# basic of load balancers in AWS
+
+3 types of load balancers:
+*** must have different sub-nets **
+** load balancer are only for production **
+
+1. Application Load Balancer
+2. Network Load Balancer
+3. Gateway Load Balancer
+
+Example to start Application
+
+Go to load balancer => create loadbalancer => add 2 different subnets and select ports.
+
+Now go to target page:
+create targets, add 2 or more instances, and go target and add the 2 servers to pending down and save and go to load balancer
+
+=> add targets to load balancer and it will provision us the load balancer
