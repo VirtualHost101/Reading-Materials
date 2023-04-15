@@ -21,3 +21,4 @@ copy ./ssh/authozie_key/rsa_idpud to git-hub account
 git status
 git add .
 git commit -m " some message"
+git log { will show previous logs}
