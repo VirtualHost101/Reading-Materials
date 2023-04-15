@@ -11,4 +11,25 @@
   > MySQL / Postgres / Oracle
   > PHP / Java / Python
 
- 
+ Check for logs
+ /var/log/(service name)/error_log => example /var/www/httpd/error_log
+
+Setting up database and connecting through application
+sudo yum update -y 
+sudo yum -y install -y mariadb-server
+sudo systemctl start mariadb
+sudo systemctl enable mariadb
+sudo my_sql_secure_installation
+mysql -u root -p (to connect)
+
+Installing Driver to connect php and mysql
+
+sudo yum -y install php-sql
+
+Commands in mysql
+show databases;
+use mysql;
+show tables;
+select * from users;
+CREATE TABLES;
+DESC TABLES;
