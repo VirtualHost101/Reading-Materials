@@ -22,3 +22,8 @@ git status
 git add .
 git commit -m " some message"
 git log { will show previous logs}
+git show {commit ID}
+git branch { create a branch and shows which branch we are on }
+git checkout { switching between branch}
+
+ 
