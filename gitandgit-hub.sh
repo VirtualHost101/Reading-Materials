@@ -25,5 +25,5 @@ git log { will show previous logs}
 git show {commit ID}
 git branch { create a branch and shows which branch we are on }
 git checkout { switching between branch}
-
+git push {from local to repo}
  
