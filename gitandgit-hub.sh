@@ -39,4 +39,5 @@ How to removed files from git
 tools to use for gitignore { www.ignoreio.com }
 
 switch the branches with out commiting the changes
-git stach
+git stash
+what is meaning of detached head
