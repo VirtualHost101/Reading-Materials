@@ -1,0 +1,22 @@
+Maven is a build tool
+it helps to convert source code to binary code
+
+mvn validate
+mvn compile
+mvn test
+mvn package
+mvn verify
+mvn install
+mvn deploy
+
+Build tools will have an Intermediate file called Project Metadata file
+
+Java --> Maven --> pom.xml 
+Pythong --> PIP  --> requirement.txt
+c  --> Make --> Makefile
+
+pom.xml --> project object model
+G - groupID
+A - artifactID
+V - versionID
+
