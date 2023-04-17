@@ -43,4 +43,15 @@ git stash
 git stash pop
 
 what is meaning of detached head
-go back in to history and experment or fix the path
+go back in to history and experment or fix the path (won't happen in real-time)
+git checkout {commit-id}
+then make changes
+git checkout -d {new-branch-name}
+git restore {to revert changes}
+
+git remote add 
+git push --upstream to push new branches
+git pull  { to pull the changes }
+
+# Tagging
+to archive the project
