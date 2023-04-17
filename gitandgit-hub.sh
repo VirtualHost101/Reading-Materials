@@ -40,4 +40,7 @@ tools to use for gitignore { www.ignoreio.com }
 
 switch the branches with out commiting the changes
 git stash
+git stash pop
+
 what is meaning of detached head
+go back in to history and experment or fix the path
