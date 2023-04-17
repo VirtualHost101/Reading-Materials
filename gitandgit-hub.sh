@@ -30,3 +30,17 @@ git merge { merging the changes}
  -> 2 types for merges { fast -forward merge } && { ort  strategy }
 git restore { restore changes }
 git reflog { show the entire the logs}
+
+# Merge confilts
+manual select the line and remove rest of the file
+
+How to removed files from git 
+.gitignore (example like *.txt or *.php etc)
+tools to use for gitignore { www.ignoreio.com }
+
+switch the branches with out commiting the changes
+git stash
+git stash pop
+
+what is meaning of detached head
+go back in to history and experment or fix the path
