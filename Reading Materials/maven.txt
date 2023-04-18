@@ -20,3 +20,7 @@ G - groupID
 A - artifactID
 V - versionID
 
+# Maven use plugins to make it more dynamic
+
+main class located in at code start
+example: com.github.maven.example.Widget
