@@ -55,3 +55,6 @@ git pull  { to pull the changes }
 
 # Tagging
 to archive the project
+
+git push --set-upstream origin { Branch Name } - new branch
+ 
