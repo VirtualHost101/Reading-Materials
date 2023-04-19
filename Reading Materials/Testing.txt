@@ -1,0 +1,10 @@
+
+There are many types of testing
+
+unit testing  : junit
+
+white box testing  : Sonarqube : : check sumd
+
+functional testing  : Selenium
+
+performance testing : Load Runner
