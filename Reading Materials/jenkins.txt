@@ -1,0 +1,24 @@
+Build triggers - 5 types
+triggers builds remotely
+build after other projects are build
+build periodcally
+poll SCM
+web hooks
+
+Build parameters
+ Build parameters are used for storing config data or options
+
+ Build parameters representaion
+  > windows %parameters%
+  > Linux   $parameters
+
+Types of parameters
+- Boolean parameters
+- Choice parameters
+- file parameters
+- multi-line string parameters
+- password parameters
+- Run parameters
+- string parameters
+
+### *** ALWAYS ADD JENKINS TO WHEEL GROUP WITH OUT PASSWORDS"
