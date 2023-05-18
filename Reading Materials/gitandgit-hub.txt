@@ -57,4 +57,7 @@ git pull  { to pull the changes }
 to archive the project
 
 git push --set-upstream origin { Branch Name } - new branch
- 
+
+WebHook triggers
+Only 1 WebHook trigger for each repo
+git-hub WebHook example => 0.0.0.0/8080/github-webhook/

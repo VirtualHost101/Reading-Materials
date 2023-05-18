@@ -22,3 +22,9 @@ Types of parameters
 - string parameters
 
 ### *** ALWAYS ADD JENKINS TO WHEEL GROUP WITH OUT PASSWORDS"
+
+Using parameters
+string parameters are called with " $ " sign 
+example num1 and num2 ==> $num1 and $num2
+
+Using plugins makes the project more dynamic
