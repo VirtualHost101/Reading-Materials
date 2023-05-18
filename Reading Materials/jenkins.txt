@@ -28,3 +28,11 @@ string parameters are called with " $ " sign
 example num1 and num2 ==> $num1 and $num2
 
 Using plugins makes the project more dynamic
+
+Plugins for Reports
+
+Junit plugin - target/surefire-reports/*.xml
+
+Managing users
+
+plugin - Matrix based strategy plugin
