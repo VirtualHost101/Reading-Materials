@@ -35,4 +35,11 @@ Junit plugin - target/surefire-reports/*.xml
 
 Managing users
 
-plugin - Matrix based strategy plugin
+security plugin - Matrix based strategy plugin
+
+# Distributed builds
+- Off loading jobs from master to nodes
+
+jenkins nodes
+labels - jobs can excuted 
+no.of excuters - no.of jobs can be done parallel jobs can be done
