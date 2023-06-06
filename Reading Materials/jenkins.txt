@@ -22,3 +22,24 @@ Types of parameters
 - string parameters
 
 ### *** ALWAYS ADD JENKINS TO WHEEL GROUP WITH OUT PASSWORDS"
+
+Using parameters
+string parameters are called with " $ " sign 
+example num1 and num2 ==> $num1 and $num2
+
+Using plugins makes the project more dynamic
+
+Plugins for Reports
+
+Junit plugin - target/surefire-reports/*.xml
+
+Managing users
+
+security plugin - Matrix based strategy plugin
+
+# Distributed builds
+- Off loading jobs from master to nodes
+
+jenkins nodes
+labels - jobs can excuted 
+no.of excuters - no.of jobs can be done parallel jobs can be done

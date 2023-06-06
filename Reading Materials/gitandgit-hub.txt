@@ -5,8 +5,27 @@ yum -y install git
 
 CODE-BUILD-TEST-RELESE-DEPLOY
 
+what is git?
+source code management.
+versioning tool for code.
+Opensource tools and works on all operatining system.
+Git was wirtten by LINUS TOVARLD.
+     - LINUS TOVARLD is father of linux.
+Apache2 License.
+Distrubed version control system.
+2004 - First realse.
+Open source and free.
+
+
 Application Code {Java, Python}
 Infrastructure as Code {Bash Scripts - Batch Scripts and YAML scripts}
+
+# What is code?
+can be opened with NOTEPAD
+like = > CSS, 	HTML, JAVA, PYTHON, JS , .txt
+
+# What is not code?
+PDF, images, movie etc.
 
 # Check if the project is git or not
 git status
@@ -16,6 +35,7 @@ git init
 # setup user account
 ssh-keygen
 copy ./ssh/authozie_key/rsa_idpud to git-hub account
+add under settings.
 
 # Tracking the changes
 git status
@@ -26,10 +46,13 @@ git show {commit ID}
 git branch { create a branch and shows which branch we are on }
 git checkout { switching between branch}
 git push {from local to repo}
+git push orgin (branch name) { send branch to git }
 git merge { merging the changes} 
  -> 2 types for merges { fast -forward merge } && { ort  strategy }
 git restore { restore changes }
 git reflog { show the entire the logs}
+
+
 
 # Merge confilts
 manual select the line and remove rest of the file
@@ -57,4 +80,49 @@ git pull  { to pull the changes }
 to archive the project
 
 git push --set-upstream origin { Branch Name } - new branch
- 
+
+WebHook triggers
+Only 1 WebHook trigger for each repo
+git-hub WebHook example => 0.0.0.0/8080/github-webhook/
+
+
+Creating Issues 
+its like Jira and assigne to others.
+
+WIKI is like confilts
+
+How to add people for the repo?
+go to settings and add collabrateds.
+
+What is a Pull request?
+Sending request from one branch to other branch. Its called PR request.
+Creating PR on GUI and add assignes.
+
+What is Security in GIT-HUB ?
+SECURITY.md
+# Security Policy
+
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Reporting a Vulnerability
+
+Use this section to tell people how to report a vulnerability.
+
+Tell them where to go, how often they can expect to get an update on a
+reported vulnerability, what to expect if the vulnerability is accepted or
+declined, etc.
+
+
+# What is Actions on Git-hub
+Build, test, and deploy your code. Make code reviews, branch management, and issue triaging work the way you want. Select a workflow to get started.
+Making CI-CD code.

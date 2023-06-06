@@ -90,3 +90,8 @@ example file.txt --> rw-  :: rw- :: r--
 # change ownership and change group
 sudo chown <username> <filename>
 sudo chgrp <username> <filename>
+
+How to remove packages
+
+yum remove
+rpm -e ( = > e - erase )
